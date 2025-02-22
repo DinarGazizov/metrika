@@ -13,6 +13,7 @@ body {
 
 .inta {
     margin-top: 30px;
+    margin-bottom: 150px;
     padding-top: 379px;
     padding-left: 40px;
     height: 500px;
@@ -39,7 +40,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 150px;
+    margin-bottom: 30px;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -58,7 +59,7 @@ p.description {
     text-align: left;
 }
 
-a {
+.container__btn {
     margin-top: 30px;
     display: inline-block;
     padding: 20px 40px;
@@ -66,3 +67,35 @@ a {
     background-color: #AD1818;
     color: #FFFFFF;
 }
+
+.projects-container {
+    margin: 0 auto;
+    width: 1400px;
+    background: #FFFFFF;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.project__li {
+    margin-bottom: 90px;
+    width: 1150px;
+    height: 548px;
+    list-style: none;
+}
+
+.project__name {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.project__link {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    color: #AD1818;
+    text-decoration: none;
+}
+
