@@ -9,6 +9,7 @@ body {
     width: 1400px;
     background: #FFFFFF;
     padding: 125px;
+    padding-bottom: 150px;
 }
 
 .inta {
@@ -68,12 +69,14 @@ p.description {
     color: #FFFFFF;
 }
 
+/* Секция проекта */
 .projects-container {
     margin: 0 auto;
     width: 1400px;
     background: #FFFFFF;
     padding-left: 125px;
     padding-right: 125px;
+    padding-bottom: 150px;
 }
 
 .project__li {
@@ -103,7 +106,7 @@ p.description {
     /* Позиционирование и отображение */
     width: 100%;
     height: 153px;
-    text-align: center;
+    
 
     /* Блочная модель */
     border: 1px solid #AD1818;
@@ -128,4 +131,41 @@ p.description {
     color: #FFFFFF;
    /* Фон и оформление */
    background-color: #AD1818;
+}
+
+/* Секция Услуги */
+.section__service {
+    margin: 0 auto;
+    background: #121212;
+    width: 1400px;
+}
+
+.service__ul {
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 1400px;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-bottom: 90px;
+    padding-top: 151px;
+}
+
+.service__li {
+    padding-bottom: 60px;
+}
+
+.service__name {
+font-size: 30px;
+font-weight: 400;
+line-height: 40.98px;
+}
+
+.service__img {
+    width: 1150px;
+    height: 270px;
+    padding-bottom: 15px;
+}
+
+.service_h {
+    margin-bottom: 34px;
 }
